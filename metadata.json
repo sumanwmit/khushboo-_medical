@@ -1,0 +1,6 @@
+{
+  "name": "Khushboo Medical Hall",
+  "description": "Trusted Pharmacy in Jehanabad, Bihar offering genuine medicines, healthcare essentials, baby care, surgical supplies, and instant WhatsApp medicine ordering.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
