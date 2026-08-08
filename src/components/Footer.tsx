@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { 
   Cross, 
+
+  
   MapPin, 
   Phone, 
   Clock, 
@@ -15,6 +17,7 @@ import {
   Award
 } from 'lucide-react';
 import { BUSINESS_INFO } from '../data/pharmacyData';
+
 
 export const Footer: React.FC = () => {
   const [showLegalModal, setShowLegalModal] = useState<'privacy' | 'terms' | 'disclaimer' | null>(null);
@@ -286,16 +289,8 @@ export const Footer: React.FC = () => {
 
           {/* Mandatory WMIT Developer Credit */}
           <div className="flex items-center space-x-1 font-medium text-slate-400">
-            <span>Developed by</span>
-            <a 
-              href="https://main.webmakerit.com" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-emerald-400 hover:text-emerald-300 font-bold transition flex items-center gap-1 underline underline-offset-2"
-            >
-              <span>WMIT</span>
-              <Globe className="w-3 h-3" />
-            </a>
+            <span></span>
+            <a href="#" className="wmit-popup-trigger hover:text-white underline transition-colors" target="_blank" rel="noopener noreferrer">Developed by WMIT</a>
           </div>
         </div>
 
