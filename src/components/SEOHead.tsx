@@ -12,7 +12,7 @@ interface SEOHeadProps {
 export const SEOHead: React.FC<SEOHeadProps> = ({
   title,
   description,
-  canonicalUrl = 'https://khushboomedical.in',
+  canonicalUrl = 'https://khushboo-medical.vercel.app',
   keywords = 'Khushboo Medical Hall, Pharmacy in Jehanabad, Medical store Jehanabad, Genuine medicines Bihar, Fida Hussain Road chemist, Buy medicine online WhatsApp Jehanabad, Surgical items, Insulin cold storage Jehanabad',
   ogType = 'website',
   jsonLdSchema
@@ -63,8 +63,8 @@ export const SEOHead: React.FC<SEOHeadProps> = ({
       "@type": "Pharmacy",
       "name": "Khushboo Medical Hall",
       "image": "https://images.unsplash.com/photo-1586015555751-63c3d5267b74",
-      "@id": "https://khushboomedical.in",
-      "url": "https://khushboomedical.in",
+      "@id": "https://khushboo-medical.vercel.app",
+      "url": "https://khushboo-medical.vercel.app",
       "telephone": "+918083243380",
       "priceRange": "₹",
       "address": {
